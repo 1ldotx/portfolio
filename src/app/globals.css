@@ -1,0 +1,66 @@
+@import 'tailwindcss';
+
+/* Define theme variables */
+:root {
+  --font-primary: 'JetBrains Mono', monospace;
+  --background: var(--color-primary);
+  --text: var(--color-text);
+  --hover: var(--color-text-hover);
+  --color-primary: #000000;
+  --color-text: #ffffff;
+  --color-text-hover: #00e187;
+}
+
+.dark {
+  --background: oklch(0.129 0.042 264.695);
+  --text: oklch(0.984 0.003 247.858);
+}
+
+/* 🔹 Use `@layer theme` to extend Tailwind */
+@layer theme {
+  :root {
+    --tw-color-background: var(--color-primary);
+    --tw-color-text: var(--color-text);
+    --tw-color-text-hover: var(--color-text-hover);
+  }
+}
+
+@layer base {
+  body {
+    font-family: var(--font-primary);
+    background-color: var(--background);
+    color: var(--text);
+    line-height: 1.75; /* leading-loose */
+  }
+
+  .h1 {
+    @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold;
+  }
+  .h2 {
+    @apply text-[36px] xl:text-[48px] leading-[1.1] font-semibold;
+  }
+  .h3 {
+    @apply text-[20px] xl:text-[24px] leading-[1.1] font-semibold;
+  }
+
+}
+
+/* 🔹 Define utility classes */
+@layer utilities {
+  .bg-primary {
+    background-color: var(--tw-color-primary);
+  }
+  .text-text {
+    color: var(--tw-color-text);
+  }
+  .hover\:text-text-hover:hover {
+    color: var(--tw-color-text-hover);
+  }
+
+  .text-outline {
+    -webkit-text-stroke: 1px #ffffff;
+  }
+  .group:hover .text-outline{
+    -webkit-text-stroke: 1px #8e51ff;
+  }
+}
