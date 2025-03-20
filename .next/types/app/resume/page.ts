@@ -1,4 +1,4 @@
-// File: D:\Fork\portfolio\portfolio\src\app\resume\page.jsx
+// File: /Users/1l/portfolio/src/app/resume/page.jsx
 import * as entry from '../../../../src/app/resume/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
