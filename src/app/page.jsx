@@ -47,18 +47,22 @@ const Home = () => {
                 BACK-END DEV TO BE. <br />
                 Exploring and learning new skillset to always improve myself.
                 Been in the game industry for half a decade, including my years
-                studying in the university. Coding game since day one of university.
+                studying in the university. Coding game since day one of
+                university.
               </p>
             </div>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button
+                asChild
                 variant="outline"
                 size="lg"
-                className=" text-violet-500 uppercase flex items-center gap-2 hover:bg-violet-600 hover:text-black hover:transition-all duration-500"
+                className="text-violet-500 uppercase flex items-center gap-2 hover:bg-violet-600 hover:text-black hover:transition-all duration-500"
               >
-                <span>Download CV</span>
-                <FiDownload className="text-xl" />
+                <a href="/assets/MyResume_Game.pdf" download>
+                  <span>Download CV</span>
+                  <FiDownload className="text-xl" />
+                </a>
               </Button>
               <div className="mb-8 xl:mb-0">
                 <Social
