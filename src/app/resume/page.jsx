@@ -23,7 +23,7 @@ const about = {
       fieldValue: 'Nont Ekongkarn',
     },
     {
-      fieldName: 'Experience:',
+      fieldName: 'Web/Back-End Experience:',
       fieldValue: '2 Months',
     },
     {
@@ -31,8 +31,8 @@ const about = {
       fieldValue: 'English, Thai',
     },
     {
-      fieldName: 'Nationality:',
-      fieldValue: 'Thai',
+      fieldName: 'Game Design/Dev Experience:',
+      fieldValue: '3 Years',
     },
     {
       fieldName: 'Email:',
@@ -41,10 +41,6 @@ const about = {
     {
       fieldName: 'Phone No:',
       fieldValue: '+66 61-336-2497',
-    },
-    {
-      fieldName: 'Based In:',
-      fieldValue: 'Bangkok, Thailand',
     },
   ],
 };
@@ -58,7 +54,7 @@ const experience = {
 
   items: [
     {
-      company: 'MQDC Mongolias',
+      company: 'Magnolia Quality Development Co., Ltd.',
       position: 'Game Designer/Developer',
       duration: 'March 2024 - October 2024',
       type: 'Contract/Freelance',
