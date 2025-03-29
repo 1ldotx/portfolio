@@ -9,6 +9,7 @@ import {
   SiKotlin,
   SiTypescript,
   SiNextdotjs,
+  SiExpress,
 } from 'react-icons/si';
 
 // about me data
@@ -121,12 +122,16 @@ const skills = {
       name: 'javascript',
     },
     {
-      icon: <FaReact />,
-      name: 'react.js',
-    },
-    {
       icon: <FaNodeJs />,
       name: 'node.js',
+    },
+    {
+      icon: <SiExpress />,
+      name: 'express.js',
+    },
+    {
+      icon: <FaReact />,
+      name: 'react.js',
     },
     {
       icon: <SiNextdotjs />,
