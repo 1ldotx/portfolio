@@ -10,6 +10,8 @@ import {
   SiTypescript,
   SiNextdotjs,
   SiExpress,
+  SiUnrealengine,
+  SiUnity,
 } from 'react-icons/si';
 
 // about me data
@@ -51,7 +53,7 @@ const experience = {
   icon: '/assets/resume/badge.svg',
   title: 'My Experience',
   description:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi in nisi fuga assumenda corporis.',
+    'My past pofessions as a Game Designer/Developer and a QA Game Tester.',
 
   items: [
     {
@@ -79,19 +81,19 @@ const experience = {
 const education = {
   icon: '/assets/resume/badge.svg',
   title: 'My Education',
-  description:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi in nisi fuga assumenda corporis.',
+  description: '',
 
   items: [
     {
       institution: 'Udemy Online Course',
+      major: 'Instructor: Dr.Angela Yu',
       degree: 'Full-Stack Web Developer',
       duration: '2025',
     },
     {
       institution: 'Thammasat University',
-      major: 'Science and Technology',
-      degree: 'Bachelor Degree',
+      major: 'Game Art Design, IDD CDT',
+      degree: 'Bachelor Degree, Science and Technology',
       duration: '2019-2022',
     },
     {
@@ -107,8 +109,16 @@ const education = {
 const skills = {
   title: 'My Skills',
   description:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi in nisi fuga assumenda corporis.',
+    'Here are the skills I aquired from my past pofessions and the skills I aquired from previous cources.',
   skillList: [
+    {
+      icon: <SiUnrealengine />,
+      name: 'UE Blueprint',
+    },
+    {
+      icon: <SiUnity />,
+      name: 'unity C#',
+    },
     {
       icon: <FaHtml5 />,
       name: 'html 5',
@@ -125,38 +135,38 @@ const skills = {
       icon: <FaNodeJs />,
       name: 'node.js',
     },
-    {
-      icon: <SiExpress />,
-      name: 'express.js',
-    },
-    {
-      icon: <FaReact />,
-      name: 'react.js',
-    },
+    // {
+    //   icon: <SiExpress />,
+    //   name: 'express.js',
+    // },
+    // {
+    //   icon: <FaReact />,
+    //   name: 'react.js',
+    // },
     {
       icon: <SiNextdotjs />,
       name: 'next.js',
     },
-    {
-      icon: <SiTailwindcss />,
-      name: 'tailwind.css',
-    },
+    // {
+    //   icon: <SiTailwindcss />,
+    //   name: 'tailwind.css',
+    // },
     {
       icon: <SiTypescript />,
       name: 'typescript',
     },
-    {
-      icon: <SiKotlin />,
-      name: 'kotlin',
-    },
+    // {
+    //   icon: <SiKotlin />,
+    //   name: 'kotlin',
+    // },
     {
       icon: <SiGoland />,
       name: 'goland',
     },
-    {
-      icon: <SiJquery />,
-      name: 'jquery',
-    },
+    // {
+    //   icon: <SiJquery />,
+    //   name: 'jquery',
+    // },
   ],
 };
 
@@ -250,7 +260,7 @@ const Resume = () => {
                         className="bg-[#232329] h-[184px] py-6 px-10 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
                       >
                         <span className="text-violet-500">{item.duration}</span>
-                        <h3 className="text-xl max-w-[290px] min-h-[20px] text-center lg:text-left">
+                        <h3 className="text-xl max-w-[590px] min-h-[30px] text-center lg:text-left">
                           {item.degree}
                         </h3>
                         <h4 className="text-white/80 text-l max-w-[260px] min-h-[50px] text-center lg:text-left">

@@ -8,21 +8,21 @@ const services = [
     num: '01',
     title: 'Web Development',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi in nisi fuga assumenda corporis.',
+      'Currently studying FullStack Web Dev online, eager to get out of my comfort-zone and pursue many different things and want to become a professional in the Web Development side.',
     href: 'https://github.com/1ldotx',
   },
   {
     num: '02',
     title: 'Back-End Development',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi in nisi fuga assumenda corporis.',
-    href: '',
+      'Currently studying FullStack Web Dev online, eager to get out of my comfort-zone and pursue many different things and want to become a professional in the Web Development side. Want to give it a go as a Back-End Developer.',
+    href: 'https://github.com/1ldotx',
   },
   {
     num: '03',
     title: 'Game Design and Development',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi in nisi fuga assumenda corporis.',
+      "My previous profession was as a Game Designer, Developer, and QA Game Tester and I've been in the game industry for half a decade, including my years studying at university",
     href: 'https://chanone3.wixsite.com/portfolio',
   },
 ];

@@ -1,7 +1,7 @@
 'use client';
 
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import Link from 'next/link';  // Use Next.js Link component for navigation
+import Link from 'next/link'; // Use Next.js Link component for navigation
 import { usePathname } from 'next/navigation';
 import { CiMenuFries } from 'react-icons/ci';
 
@@ -18,10 +18,10 @@ const link = [
     name: 'resume',
     path: '/resume',
   },
-  {
-    name: 'work',
-    path: '/work',
-  },
+  // {
+  //   name: 'work',
+  //   path: '/work',
+  // },
   {
     name: 'contact',
     path: '/contact',
@@ -52,7 +52,9 @@ const MobileNav = () => {
                 href={item.path}
                 key={index}
                 className={`${
-                  item.path === pathname ? 'text-violet-500 border-b-2 border-violet-500' : ''
+                  item.path === pathname
+                    ? 'text-violet-500 border-b-2 border-violet-500'
+                    : ''
                 } text-xl capitalize hover:text-violet-500 transition-all`}
               >
                 {item.name}
