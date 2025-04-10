@@ -17,6 +17,8 @@ import {
 import { FaPhoneAlt, FaEnvelope, FaMapMarkedAlt } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
+import { Analytics } from '@vercel/analytics/next';
+
 const Contact = () => {
   const form = useRef();
   const [loading, setLoading] = useState(false);
@@ -187,6 +189,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <Analytics />
     </motion.section>
   );
 };

@@ -10,6 +10,8 @@ import Photo from '@/components/Photo';
 import { delay } from 'framer-motion';
 import Stats from '@/components/Stats';
 
+import { Analytics } from '@vercel/analytics/react';
+
 const Home = () => {
   return (
     <section className="h-full">
@@ -80,6 +82,7 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <Analytics />
       <Stats />
     </section>
   );

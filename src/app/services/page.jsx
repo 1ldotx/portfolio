@@ -2,6 +2,7 @@
 
 import { BsArrowDownRight } from 'react-icons/bs';
 import Link from 'next/link';
+import { Analytics } from '@vercel/analytics/next';
 
 const services = [
   {
@@ -71,6 +72,7 @@ const Services = () => {
               </div>
             );
           })}
+          <Analytics />
         </motion.div>
       </div>
     </section>

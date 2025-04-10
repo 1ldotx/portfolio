@@ -1,6 +1,7 @@
 'use client';
 
 import { FaHtml5, FaCss3, FaJs, FaReact, FaNodeJs } from 'react-icons/fa';
+import { Analytics } from '@vercel/analytics/next';
 
 import {
   SiTailwindcss,
@@ -336,6 +337,7 @@ const Resume = () => {
           </div>
         </Tabs>
       </div>
+      <Analytics />
     </motion.div>
   );
 };

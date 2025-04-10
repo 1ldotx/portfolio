@@ -7,6 +7,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 
 import { BsArrowUpRight, BsGithub } from 'react-icons/bs';
+import { Analytics } from '@vercel/analytics/next';
 
 import {
   Tooltip,
@@ -171,6 +172,7 @@ const Work = () => {
           </div>
         </div>
       </div>
+      <Analytics />
     </motion.section>
   );
 };
