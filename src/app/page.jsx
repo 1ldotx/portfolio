@@ -28,7 +28,7 @@ const Home = () => {
                     // Same substring at the start will only be typed out once, initially
                     'Nont Ekongkarn',
                     3000, // wait 1s before replacing "Mice" with "Hamsters"
-                    'a Web Developer',
+                    'a Front-End Developer',
                     1000,
                     'a Back-End Developer',
                     1000,
@@ -48,7 +48,7 @@ const Home = () => {
             </h1>
             <div className="flex justify-center xl:justify-start">
               <p className="max-w-[500px] mb-9 text-white/80">
-                BACK-END DEV TO BE. <br />
+                FRONT/BACK-END DEV (TO BE). <br />
                 Exploring and learning new skillset to always improve myself.
                 Been in the game industry for half a decade, including my years
                 studying in the university. Coding game since day one of
