@@ -140,18 +140,18 @@ const skills = {
     //   icon: <SiExpress />,
     //   name: 'express.js',
     // },
-    // {
-    //   icon: <FaReact />,
-    //   name: 'react.js',
-    // },
+    {
+      icon: <FaReact />,
+      name: 'react.js',
+    },
     {
       icon: <SiNextdotjs />,
       name: 'next.js',
     },
-    // {
-    //   icon: <SiTailwindcss />,
-    //   name: 'tailwind.css',
-    // },
+    {
+      icon: <SiTailwindcss />,
+      name: 'tailwind.css',
+    },
     {
       icon: <SiTypescript />,
       name: 'typescript',
