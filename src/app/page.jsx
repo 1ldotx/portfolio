@@ -61,9 +61,13 @@ const Home = () => {
                 asChild
                 variant="outline"
                 size="lg"
-                className="text-violet-500 uppercase flex items-center gap-2 hover:bg-violet-600 hover:text-black hover:transition-all duration-500"
+                className="text-violet-500 uppercase hover:bg-violet-600 hover:text-black hover:transition-all duration-500"
               >
-                <a href="/assets/MyResume_Game.pdf" download>
+                <a
+                  href="/assets/MYDEVRESUME.pdf"
+                  download
+                  className="flex items-center gap-2"
+                >
                   <span>Download CV</span>
                   <FiDownload className="text-xl" />
                 </a>
