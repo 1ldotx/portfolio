@@ -27,8 +27,8 @@ const about = {
       fieldValue: 'Nont Ekongkarn',
     },
     {
-      fieldName: 'Web/Back-End Experience:',
-      fieldValue: '2 Months',
+      fieldName: 'Full Stack Experience:',
+      fieldValue: '3 Months',
     },
     {
       fieldName: 'Languages:',
@@ -36,7 +36,7 @@ const about = {
     },
     {
       fieldName: 'Game Design/Dev Experience:',
-      fieldValue: '3 Years',
+      fieldValue: '6 Years',
     },
     {
       fieldName: 'Email:',
