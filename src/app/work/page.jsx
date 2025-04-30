@@ -23,41 +23,41 @@ import WorkSliderBtns from '@/components/ui/WorkSliderBtns';
 const projects = [
   {
     num: '01',
-    category: 'frontend',
-    ttle: 'project 1',
+    category: 'Forestia Concept',
+    title: 'Forestia Project',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eum at accusamus eius, quas officia deleniti, omnis, amet architecto nemo cumque assumenda quae similique reiciendis impedit ipsum rerum quia repellat?',
-    stack: [{ name: 'Html 5' }, { name: 'Css 3' }, { name: 'Javascript' }],
-    image: '/',
+      'Created functional concept mechanics for a sales gallery in Unreal Engine 5 and integrated AI Sales Agent in The Forestias project.',
+    stack: [{ name: 'UE5 Blueprint' }, { name: 'VaRest' }, { name: 'APIs' }],
+    image: '/assets/forestia_project.png',
     live: '',
     github: '',
   },
   {
     num: '02',
-    category: 'fullstack',
-    ttle: 'project 2',
+    category: 'Primorden',
+    title: 'project 2',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eum at accusamus eius, quas officia deleniti, omnis, amet architecto nemo cumque assumenda quae similique reiciendis impedit ipsum rerum quia repellat?',
-    stack: [{ name: 'Next.js' }, { name: 'Tailwind.css' }, { name: 'Node.js' }],
-    image: '/',
+      'Identified over 100+ bugs in the game through rigorous testing and directly collaborated with artists, game designers and developers to resolve the issues, resulting in a significant improvement in gameplay experiences. Helped sliced art assets from Artist and handed it over to the Level Designers to place it in the game.',
+    stack: [{ name: 'UE5' }, { name: 'Testing' }, { name: 'Photoshop' }],
+    image: '/assets/primorden.jpg',
     live: '',
     github: '',
   },
-  {
-    num: '03',
-    category: 'backend',
-    ttle: 'project 3',
-    description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eum at accusamus eius, quas officia deleniti, omnis, amet architecto nemo cumque assumenda quae similique reiciendis impedit ipsum rerum quia repellat?',
-    stack: [
-      { name: 'Next.js' },
-      { name: 'Tailwind.cee' },
-      { name: 'Javascript' },
-    ],
-    image: '/',
-    live: '',
-    github: '',
-  },
+  // {
+  //   num: '03',
+  //   category: 'backend',
+  //   title: 'project 3',
+  //   description:
+  //     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eum at accusamus eius, quas officia deleniti, omnis, amet architecto nemo cumque assumenda quae similique reiciendis impedit ipsum rerum quia repellat?',
+  //   stack: [
+  //     { name: 'Next.js' },
+  //     { name: 'Tailwind.cee' },
+  //     { name: 'Javascript' },
+  //   ],
+  //   image: '/',
+  //   live: '',
+  //   github: '',
+  // },
 ];
 
 const Work = () => {
@@ -109,7 +109,7 @@ const Work = () => {
               {/* button */}
               <div className="flex items-center gap-4">
                 {/* live project button */}
-                <Link href={project.live}>
+                {/* <Link href={project.live}>
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -120,9 +120,9 @@ const Work = () => {
                       </TooltipContent>
                     </Tooltip>
                   </TooltipProvider>
-                </Link>
+                </Link> */}
                 {/* github project button */}
-                <Link href={project.github}>
+                {/* <Link href={project.github}>
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -133,7 +133,7 @@ const Work = () => {
                       </TooltipContent>
                     </Tooltip>
                   </TooltipProvider>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

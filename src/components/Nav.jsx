@@ -16,10 +16,10 @@ const links = [
     name: 'resume',
     path: '/resume',
   },
-  // {
-  //   name: 'work',
-  //   path: '/work',
-  // },
+  {
+    name: 'work',
+    path: '/work',
+  },
   {
     name: 'contact',
     path: '/contact',
@@ -33,11 +33,14 @@ const Nav = () => {
       {links.map((link, index) => {
         return (
           <Link
-            href={link.path} 
-            key={index} 
+            href={link.path}
+            key={index}
             className={`${
-              link.path === pathname ? "text-violet-500 border-b-2 border-violet-500" : "text-white"
-            } capitalize font-medium hover:text-violet-500 no-underline transition-all`}>
+              link.path === pathname
+                ? 'text-violet-500 border-b-2 border-violet-500'
+                : 'text-white'
+            } capitalize font-medium hover:text-violet-500 no-underline transition-all`}
+          >
             {link.name}
           </Link>
         );
