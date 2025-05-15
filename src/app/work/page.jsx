@@ -23,41 +23,47 @@ import WorkSliderBtns from '@/components/ui/WorkSliderBtns';
 const projects = [
   {
     num: '01',
-    category: 'Forestia Concept',
-    title: 'Forestia Project',
+    category: 'Baires Concept Web',
+    title: 'project 3',
     description:
-      'Created functional concept mechanics for a sales gallery in Unreal Engine 5 and integrated AI Sales Agent in The Forestias project.',
-    stack: [{ name: 'UE5 Blueprint' }, { name: 'VaRest' }, { name: 'APIs' }],
-    image: '/assets/forestia_project.png',
-    live: '',
+      'Design and build a concept website for the newly launched brand Baires as a hands-on project to apply and grow my FullStack development skills.',
+    stack: [{ name: 'Next.js' }, { name: 'CSS' }, { name: 'JavaScript' }],
+    image: '/assets/baires.png',
+    live: 'https://baires-website.vercel.app/',
     github: '',
   },
   {
     num: '02',
+    category: 'Forestia Concept',
+    title: 'Forestia Project',
+    description:
+      'Created functional concept mechanics for a sales gallery in Unreal Engine 5 and integrated AI Sales Agent in The Forestias project.',
+    stack: [
+      { name: 'UE5 Blueprint' },
+      { name: 'VaRest' },
+      { name: 'APIs' },
+      { name: 'AI Agents' },
+    ],
+    image: '/assets/forestia_project.png',
+    live: 'https://mqdc.com/theforestias/progress',
+    github: '',
+  },
+  {
+    num: '03',
     category: 'Primorden',
     title: 'project 2',
     description:
-      'Identified over 100+ bugs in the game through rigorous testing and directly collaborated with artists, game designers and developers to resolve the issues, resulting in a significant improvement in gameplay experiences. Helped sliced art assets from Artist and handed it over to the Level Designers to place it in the game.',
-    stack: [{ name: 'UE5' }, { name: 'Testing' }, { name: 'Photoshop' }],
+      'Identified over 100+ bugs in the game through rigorous testing and directly collaborated with artists, game designers and developers to resolve the issues and improve testings, resulting in a significant improvement in gameplay experiences. Helped sliced art assets from Artist and handed it over to the Level Designers to place it in the game.',
+    stack: [
+      { name: 'UE5' },
+      { name: 'QA Testing' },
+      { name: 'Photoshop' },
+      { name: 'Documentation' },
+    ],
     image: '/assets/primorden.jpg',
-    live: '',
+    live: 'https://chillchat.com/',
     github: '',
   },
-  // {
-  //   num: '03',
-  //   category: 'backend',
-  //   title: 'project 3',
-  //   description:
-  //     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eum at accusamus eius, quas officia deleniti, omnis, amet architecto nemo cumque assumenda quae similique reiciendis impedit ipsum rerum quia repellat?',
-  //   stack: [
-  //     { name: 'Next.js' },
-  //     { name: 'Tailwind.cee' },
-  //     { name: 'Javascript' },
-  //   ],
-  //   image: '/',
-  //   live: '',
-  //   github: '',
-  // },
 ];
 
 const Work = () => {
@@ -109,7 +115,7 @@ const Work = () => {
               {/* button */}
               <div className="flex items-center gap-4">
                 {/* live project button */}
-                {/* <Link href={project.live}>
+                <Link href={project.live}>
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -120,7 +126,7 @@ const Work = () => {
                       </TooltipContent>
                     </Tooltip>
                   </TooltipProvider>
-                </Link> */}
+                </Link>
                 {/* github project button */}
                 {/* <Link href={project.github}>
                   <TooltipProvider delayDuration={100}>
