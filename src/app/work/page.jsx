@@ -23,7 +23,7 @@ import WorkSliderBtns from '@/components/ui/WorkSliderBtns';
 const projects = [
   {
     num: '01',
-    category: 'Baires Concept Web',
+    category: 'Baires',
     title: 'project 3',
     description:
       'Design and build a concept website for the newly launched brand Baires as a hands-on project to apply and grow my FullStack development skills.',
