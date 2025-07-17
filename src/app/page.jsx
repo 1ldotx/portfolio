@@ -28,7 +28,7 @@ const Home = () => {
                     // Same substring at the start will only be typed out once, initially
                     'Nont Ekongkarn',
                     3000, // wait 1s before replacing "Mice" with "Hamsters"
-                    'a Digital Marketing',
+                    'a Jr. Digital Marketer',
                     1000,
                     'a Game Designer',
                     1000,
@@ -61,7 +61,7 @@ const Home = () => {
                 className="text-violet-500 uppercase hover:bg-violet-600 hover:text-black hover:transition-all duration-500"
               >
                 <a
-                  href="/assets/MYDEVRESUME.pdf"
+                  href="/assets/Resume.pdf"
                   download
                   className="flex items-center gap-2"
                 >
