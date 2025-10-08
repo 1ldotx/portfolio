@@ -5,14 +5,14 @@ import CountUp from 'react-countup';
 const stats = [
   {
     num: 3,
-    text: 'Months of Exeperience in Full Stack',
+    text: 'Months of Exeperience in Web Dev',
   },
   {
-    num: 3,
-    text: 'Full Stack Projects Completed',
+    num: 4,
+    text: 'Months of Exeperience in Digital Marketing',
   },
   {
-    num: 6,
+    num: 5,
     text: 'Years of Exeperience in Games',
   },
   {

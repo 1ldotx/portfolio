@@ -23,35 +23,8 @@ import WorkSliderBtns from '@/components/ui/WorkSliderBtns';
 const projects = [
   {
     num: '01',
-    category: 'Baires',
-    title: 'project 3',
-    description:
-      'Design and build a concept website for the newly launched brand Baires as a hands-on project to apply and grow my FullStack development skills.',
-    stack: [{ name: 'Next.js' }, { name: 'CSS' }, { name: 'JavaScript' }],
-    image: '/assets/baires.png',
-    live: 'https://baires-website.vercel.app/',
-    github: '',
-  },
-  {
-    num: '02',
-    category: 'Forestia Concept',
-    title: 'Forestia Project',
-    description:
-      'Created functional concept mechanics for a sales gallery in Unreal Engine 5 and integrated AI Sales Agent in The Forestias project.',
-    stack: [
-      { name: 'UE5 Blueprint' },
-      { name: 'VaRest' },
-      { name: 'APIs' },
-      { name: 'AI Agents' },
-    ],
-    image: '/assets/forestia_project.png',
-    live: 'https://mqdc.com/theforestias/progress',
-    github: '',
-  },
-  {
-    num: '03',
     category: 'Primorden',
-    title: 'project 2',
+    title: 'Game QA Tester',
     description:
       'Identified over 100+ bugs in the game through rigorous testing and directly collaborated with artists, game designers and developers to resolve the issues and improve testings, resulting in a significant improvement in gameplay experiences. Helped sliced art assets from Artist and handed it over to the Level Designers to place it in the game.',
     stack: [
@@ -62,6 +35,34 @@ const projects = [
     ],
     image: '/assets/primorden.jpg',
     live: 'https://chillchat.com/',
+    github: '',
+  },
+  {
+    num: '02',
+    category: 'Forestia Concept',
+    title: 'Game Designer & Developer',
+    description:
+      'Created functional concept mechanics for a sales gallery in Unreal Engine 5 that user friendly to Adults and Elderly; integrated AI Sales Agent by the Dev Team into the Forestias project that users can communicate with TTS or STT.',
+    stack: [
+      { name: 'UE5 Blueprint' },
+      { name: 'VaRest' },
+      { name: 'APIs' },
+      { name: 'AI Agents' },
+    ],
+    image: '/assets/forestia_project.png',
+    live: 'https://mqdc.com/theforestias/progress',
+    github: '',
+  },
+
+  {
+    num: '03',
+    category: 'Baires',
+    title: 'project 3',
+    description:
+      '"PROJECT ON HOLD" Design and build a concept website for the newly launched brand Baires as a hands-on project to apply and grow my Web Sevelopment Skills.',
+    stack: [{ name: 'Next.js' }, { name: 'CSS' }, { name: 'JavaScript' }],
+    image: '/assets/baires.png',
+    live: 'https://baires-website.vercel.app/',
     github: '',
   },
 ];

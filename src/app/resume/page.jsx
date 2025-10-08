@@ -13,6 +13,7 @@ import {
   SiExpress,
   SiUnrealengine,
   SiUnity,
+  SiGoogleanalytics,
 } from 'react-icons/si';
 
 // about me data
@@ -24,27 +25,27 @@ const about = {
   info: [
     {
       fieldName: 'Name:',
-      fieldValue: 'Nont Ekongkarn',
-    },
-    {
-      fieldName: 'Full Stack Experience:',
-      fieldValue: '3 Months',
+      fieldValue: 'Chanon Ekongkarn',
     },
     {
       fieldName: 'Languages:',
-      fieldValue: 'English, Thai',
+      fieldValue: 'English, Thai, Hindi/Punjabi (Basics)',
     },
     {
-      fieldName: 'Game Design/Dev Experience:',
-      fieldValue: '6 Years',
+      fieldName: 'Web Dev Experience:',
+      fieldValue: '3 Months',
     },
     {
-      fieldName: 'Email:',
-      fieldValue: 'nappdevdotx@gmail.com',
+      fieldName: 'TOEIC Score:',
+      fieldValue: '850/990',
     },
     {
-      fieldName: 'Phone No:',
-      fieldValue: '+66 61-336-2497',
+      fieldName: 'Digital Marketing Experience:',
+      fieldValue: '4 Months',
+    },
+    {
+      fieldName: 'Game Design/Dev Experience',
+      fieldValue: '5 Years',
     },
   ],
 };
@@ -156,14 +157,18 @@ const skills = {
       icon: <SiTypescript />,
       name: 'typescript',
     },
+    {
+      icon: <SiGoogleanalytics />,
+      name: 'google analytics',
+    },
     // {
     //   icon: <SiKotlin />,
     //   name: 'kotlin',
     // },
-    {
-      icon: <SiGoland />,
-      name: 'goland',
-    },
+    // {
+    //   icon: <SiGoland />,
+    //   name: 'goland',
+    // },
     // {
     //   icon: <SiJquery />,
     //   name: 'jquery',
@@ -321,7 +326,7 @@ const Resume = () => {
                 <p className="max-w-[800px] text-white/60 mx-auto xl:mx-0">
                   {about.description}
                 </p>
-                <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[920px] mx-auto xl:mx-0">
+                <ul className="grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[980px] mx-auto xl:mx-0">
                   {about.info.map((item, index) => (
                     <li
                       key={index}

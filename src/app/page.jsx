@@ -28,13 +28,13 @@ const Home = () => {
                     // Same substring at the start will only be typed out once, initially
                     'Nont Ekongkarn',
                     3000, // wait 1s before replacing "Mice" with "Hamsters"
-                    'a Jr. Digital Marketer',
-                    1000,
                     'a Game Designer',
                     1000,
                     'a Game Developer',
                     1000,
-                    'and a QA Game Tester',
+                    'a QA Game Tester',
+                    1000,
+                    'and a Digital Marketer',
                     1000,
                   ]}
                   wrapper="span"
@@ -46,9 +46,9 @@ const Home = () => {
             </h1>
             <div className="flex justify-center xl:justify-start">
               <p className="max-w-[500px] mb-9 text-white/80">
-                Exploring and learning new skillset to always improve myself.
+                Always exploring and learning new skillset to always improve myself outside my comfort zone.
                 Been in the game industry for half a decade, including my years
-                studying in the university. Coding game since day one of
+                studying in the university. Coding and Designing games since day one of
                 university.
               </p>
             </div>
